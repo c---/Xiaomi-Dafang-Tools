@@ -1,0 +1,21 @@
+[submodule "ffmpeg"]
+	path = ffmpeg
+	url = https://git.ffmpeg.org/ffmpeg.git
+[submodule "x264"]
+	path = x264
+	url = https://code.videolan.org/videolan/x264.git
+[submodule "libvpx"]
+	path = libvpx
+	url = https://chromium.googlesource.com/webm/libvpx
+[submodule "rsync"]
+	path = rsync
+	url = https://git.samba.org/rsync.git
+[submodule "openvpn"]
+	path = openvpn
+	url = https://github.com/OpenVPN/openvpn.git
+[submodule "openssl"]
+	path = openssl
+	url = https://github.com/openssl/openssl.git
+[submodule "mips-gcc472-glibc216-64bit"]
+	path = mips-gcc472-glibc216-64bit
+	url = https://github.com/Dafang-Hacks/mips-gcc472-glibc216-64bit.git
