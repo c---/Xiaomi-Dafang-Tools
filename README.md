@@ -4,7 +4,7 @@ These projects are meant as a supplement to [Xiaomi DaFang Hacks](https://github
 
 When checking this project out of git make sure to use `--recurse-submodules`.
 
-Each tool has a build script usually named `<tool>.build.sh`. Just change directory to the tool you want to build then run the config script for it. This sets up and builds using the original [DaFang Hacks](https://github.com/Dafang-Hacks/Main) MIPS Ingenic build tools.
+Each tool has a build script usually named `<tool>.build.sh`. Just change directory to the tool you want to build then run the build script for it. This sets up and builds using the original [DaFang Hacks](https://github.com/Dafang-Hacks/Main) MIPS Ingenic build tools.
 
 libvpx and x264 need to be built prior to building ffmpeg.
 openssl needs to be built prior to building openvpn.

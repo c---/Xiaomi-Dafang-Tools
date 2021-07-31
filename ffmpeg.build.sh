@@ -11,7 +11,7 @@ fi
 ./configure \
    --cross-prefix=$TOOLS/mips-linux-uclibc-gnu- \
    --enable-gpl --target-os=linux --arch=mips --enable-cross-compile \
-   --extra-ldflags=-static --disable-pthreads \
+   --extra-ldflags=-static \
    --disable-decoders --disable-encoders --disable-parsers --disable-demuxers \
    --disable-muxers --disable-protocols --disable-bsfs --disable-indevs \
    --disable-outdevs --disable-filters \
@@ -25,6 +25,7 @@ fi
    --enable-decoder=mpeg4 \
    --enable-decoder=opus \
    --enable-decoder=pcm_mulaw \
+   --enable-decoder=pcm_s16be \
    --enable-decoder=vp9 \
 \
    --enable-encoder=aac \
@@ -34,6 +35,7 @@ fi
    --enable-encoder=mpeg4 \
    --enable-encoder=opus \
    --enable-encoder=pcm_mulaw \
+   --enable-encoder=pcm_s16be \
 \
    --enable-parser=aac \
    --enable-parser=h264 \
@@ -51,6 +53,7 @@ fi
    --enable-demuxer=mp3 \
    --enable-demuxer=mjpeg \
    --enable-demuxer=pcm_mulaw \
+   --enable-demuxer=pcm_s16be \
    --enable-demuxer=rtsp \
 \
    --enable-muxer=avi \
@@ -63,6 +66,7 @@ fi
    --enable-muxer=mp4 \
    --enable-muxer=opus \
    --enable-muxer=pcm_mulaw \
+   --enable-muxer=pcm_s16be \
    --enable-muxer=rtsp \
    --enable-muxer=webm \
 \
